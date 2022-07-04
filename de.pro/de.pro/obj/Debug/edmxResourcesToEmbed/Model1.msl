@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="kutuphane_projesiModelStoreContainer" CdmEntityContainer="kutuphane_projesiEntities">
+    <EntitySetMapping Name="Tbl_EmanetKitaplar">
+      <EntityTypeMapping TypeName="kutuphane_projesiModel.Tbl_EmanetKitaplar">
+        <MappingFragment StoreEntitySet="Tbl_EmanetKitaplar">
+          <ScalarProperty Name="EmanetID" ColumnName="EmanetID" />
+          <ScalarProperty Name="EmanetTC" ColumnName="EmanetTC" />
+          <ScalarProperty Name="EmanetAdSoyad" ColumnName="EmanetAdSoyad" />
+          <ScalarProperty Name="EmanetYas" ColumnName="EmanetYas" />
+          <ScalarProperty Name="EmanetTelefon" ColumnName="EmanetTelefon" />
+          <ScalarProperty Name="EmanetKBarkod" ColumnName="EmanetKBarkod" />
+          <ScalarProperty Name="EmanetKAd" ColumnName="EmanetKAd" />
+          <ScalarProperty Name="EmanetKYazar" ColumnName="EmanetKYazar" />
+          <ScalarProperty Name="EmanetKSayi" ColumnName="EmanetKSayi" />
+          <ScalarProperty Name="EmanetKTeslim" ColumnName="EmanetKTeslim" />
+          <ScalarProperty Name="İade" ColumnName="İade" />
+          <ScalarProperty Name="EmanetTeslimEdilenPer" ColumnName="EmanetTeslimEdilenPer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_İade">
+      <EntityTypeMapping TypeName="kutuphane_projesiModel.Tbl_İade">
+        <MappingFragment StoreEntitySet="Tbl_İade">
+          <ScalarProperty Name="İadeID" ColumnName="İadeID" />
+          <ScalarProperty Name="İadeTC" ColumnName="İadeTC" />
+          <ScalarProperty Name="İadeAdSoyad" ColumnName="İadeAdSoyad" />
+          <ScalarProperty Name="İadeYas" ColumnName="İadeYas" />
+          <ScalarProperty Name="İadeTelefon" ColumnName="İadeTelefon" />
+          <ScalarProperty Name="İadeKBarkod" ColumnName="İadeKBarkod" />
+          <ScalarProperty Name="İadeKAd" ColumnName="İadeKAd" />
+          <ScalarProperty Name="İadeKYazar" ColumnName="İadeKYazar" />
+          <ScalarProperty Name="İadeKSayi" ColumnName="İadeKSayi" />
+          <ScalarProperty Name="İadeKTeslim" ColumnName="İadeKTeslim" />
+          <ScalarProperty Name="İadeKreturnTarih" ColumnName="İadeKreturnTarih" />
+          <ScalarProperty Name="personel" ColumnName="personel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Kayip_kitap">
+      <EntityTypeMapping TypeName="kutuphane_projesiModel.Tbl_Kayip_kitap">
+        <MappingFragment StoreEntitySet="Tbl_Kayip_kitap">
+          <ScalarProperty Name="KayipID" ColumnName="KayipID" />
+          <ScalarProperty Name="KayipTC" ColumnName="KayipTC" />
+          <ScalarProperty Name="KayipAdSoyad" ColumnName="KayipAdSoyad" />
+          <ScalarProperty Name="KayipYas" ColumnName="KayipYas" />
+          <ScalarProperty Name="KayipTelefon" ColumnName="KayipTelefon" />
+          <ScalarProperty Name="KayipBarkod" ColumnName="KayipBarkod" />
+          <ScalarProperty Name="Kitaplar" ColumnName="Kitaplar" />
+          <ScalarProperty Name="KayipKYazar" ColumnName="KayipKYazar" />
+          <ScalarProperty Name="KayipKSayi" ColumnName="KayipKSayi" />
+          <ScalarProperty Name="KayipTeslimTarih" ColumnName="KayipTeslimTarih" />
+          <ScalarProperty Name="KayipİadeTarih" ColumnName="KayipİadeTarih" />
+          <ScalarProperty Name="KayipTeslimPer" ColumnName="KayipTeslimPer" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Kayitlar">
+      <EntityTypeMapping TypeName="kutuphane_projesiModel.Tbl_Kayitlar">
+        <MappingFragment StoreEntitySet="Tbl_Kayitlar">
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+          <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+          <ScalarProperty Name="EmanetID" ColumnName="EmanetID" />
+          <ScalarProperty Name="İadeID" ColumnName="İadeID" />
+          <ScalarProperty Name="KayipID" ColumnName="KayipID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Kitaplar">
+      <EntityTypeMapping TypeName="kutuphane_projesiModel.Tbl_Kitaplar">
+        <MappingFragment StoreEntitySet="Tbl_Kitaplar">
+          <ScalarProperty Name="KitapID" ColumnName="KitapID" />
+          <ScalarProperty Name="KitapAd" ColumnName="KitapAd" />
+          <ScalarProperty Name="KitapYazari" ColumnName="KitapYazari" />
+          <ScalarProperty Name="KitapSayfasayisi" ColumnName="KitapSayfasayisi" />
+          <ScalarProperty Name="PersonelAd" ColumnName="PersonelAd" />
+          <ScalarProperty Name="KitapBarkodu" ColumnName="KitapBarkodu" />
+          <ScalarProperty Name="KitapTuru" ColumnName="KitapTuru" />
+          <ScalarProperty Name="KitapYayinevi" ColumnName="KitapYayinevi" />
+          <ScalarProperty Name="KitapDurum" ColumnName="KitapDurum" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_personel">
+      <EntityTypeMapping TypeName="kutuphane_projesiModel.Tbl_personel">
+        <MappingFragment StoreEntitySet="Tbl_personel">
+          <ScalarProperty Name="PersonelID" ColumnName="PersonelID" />
+          <ScalarProperty Name="PersonelAd" ColumnName="PersonelAd" />
+          <ScalarProperty Name="PersonelSoyad" ColumnName="PersonelSoyad" />
+          <ScalarProperty Name="PersonelTC" ColumnName="PersonelTC" />
+          <ScalarProperty Name="PersonelCinsiyet" ColumnName="PersonelCinsiyet" />
+          <ScalarProperty Name="PersonelDogumtarih" ColumnName="PersonelDogumtarih" />
+          <ScalarProperty Name="PersonelTelefon" ColumnName="PersonelTelefon" />
+          <ScalarProperty Name="PersonelEposta" ColumnName="PersonelEposta" />
+          <ScalarProperty Name="PersonelSifre" ColumnName="PersonelSifre" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Tbl_Uyeler">
+      <EntityTypeMapping TypeName="kutuphane_projesiModel.Tbl_Uyeler">
+        <MappingFragment StoreEntitySet="Tbl_Uyeler">
+          <ScalarProperty Name="UyeID" ColumnName="UyeID" />
+          <ScalarProperty Name="UyeTC" ColumnName="UyeTC" />
+          <ScalarProperty Name="UyeAd" ColumnName="UyeAd" />
+          <ScalarProperty Name="UyeSoyad" ColumnName="UyeSoyad" />
+          <ScalarProperty Name="UyeCinsiyet" ColumnName="UyeCinsiyet" />
+          <ScalarProperty Name="UyeDogumtarih" ColumnName="UyeDogumtarih" />
+          <ScalarProperty Name="UyeTelefon" ColumnName="UyeTelefon" />
+          <ScalarProperty Name="UyeEposta" ColumnName="UyeEposta" />
+          <ScalarProperty Name="UyeSifre" ColumnName="UyeSifre" />
+          <ScalarProperty Name="UyeAdres" ColumnName="UyeAdres" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

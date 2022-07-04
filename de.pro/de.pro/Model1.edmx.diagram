@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="82202423fb424fcda88a64a4b2f6cae0" Name="Diagram1">
+        <EntityTypeShape EntityType="kutuphane_projesiModel.Tbl_EmanetKitaplar" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="kutuphane_projesiModel.Tbl_İade" Width="1.5" PointX="0.75" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="kutuphane_projesiModel.Tbl_Kayip_kitap" Width="1.5" PointX="0.75" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kutuphane_projesiModel.Tbl_Kayitlar" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="kutuphane_projesiModel.Tbl_Kitaplar" Width="1.5" PointX="0.75" PointY="15.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="kutuphane_projesiModel.Tbl_personel" Width="1.5" PointX="0.75" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="kutuphane_projesiModel.Tbl_Uyeler" Width="1.5" PointX="0.75" PointY="23" IsExpanded="true" />
+        <AssociationConnector Association="kutuphane_projesiModel.FK_Tbl_Kayitlar_Tbl_EmanetKitaplar" ManuallyRouted="false" />
+        <AssociationConnector Association="kutuphane_projesiModel.FK_Tbl_Kayitlar_Tbl_İade" ManuallyRouted="false" />
+        <AssociationConnector Association="kutuphane_projesiModel.FK_Tbl_Kayitlar_Tbl_Kayip_kitap" ManuallyRouted="false" />
+        <AssociationConnector Association="kutuphane_projesiModel.FK_Tbl_Kayitlar_Tbl_Kitaplar" ManuallyRouted="false" />
+        <AssociationConnector Association="kutuphane_projesiModel.FK_Tbl_Kayitlar_Tbl_personel" ManuallyRouted="false" />
+        <AssociationConnector Association="kutuphane_projesiModel.FK_Tbl_Kayitlar_Tbl_Uyeler" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
